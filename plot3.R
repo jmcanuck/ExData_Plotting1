@@ -28,7 +28,7 @@ if (!exists("datasetup")) {
 }
 
 # Start PNG device driver to save output to figure.png
-png(filename="plot3.png", height=540, width=540,  bg="transparent")
+png(filename="plot3.png", height=480, width=480,  bg="transparent")
 ## run the plot
 ## determine the mid-point for the X axis
 nr<-nrow(sd)

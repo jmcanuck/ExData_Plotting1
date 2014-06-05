@@ -28,7 +28,7 @@ if (!exists("datasetup")) {
 }
 
 # Start PNG device driver to save output to the file
-png(filename="plot2.png", height=540, width=540,  bg="transparent")
+png(filename="plot2.png", height=480, width=480,  bg="transparent")
 ## run the hist function to make the graphic
 plot(sd$DT,sd$Global_active_power,type="l",xlab="",ylab="Global Active Power (kilowatts)")
 ## turn off the device to push the graph into the file.

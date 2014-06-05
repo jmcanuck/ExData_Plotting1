@@ -28,7 +28,7 @@ if (!exists("datasetup")) {
 }
 
 # Start PNG device driver to save output to the file
-png(filename="plot4.png", height=540, width=540,  bg="transparent")
+png(filename="plot4.png", height=480, width=480,  bg="transparent")
 ## run the plot
 
 ## setup the 2x2 grid
