@@ -1,4 +1,4 @@
-## This script creates plot 1 for assignment 1
+## This script creates plot 2 for assignment 1
 
 ## as there are 4 parts to the assignment and they all use the same date
 ## I used a little trick so I'd only have to set it up once
@@ -28,9 +28,9 @@ if (!exists("datasetup")) {
 }
 
 # Start PNG device driver to save output to the file
-png(filename="plot1.png", height=540, width=540,  bg="transparent")
+png(filename="plot2.png", height=540, width=540,  bg="transparent")
 ## run the hist function to make the graphic
-hist(sd$Global_active_power,col="red",xlab="Global Active Power (kilowatts)",main="Global Active Power")
+plot(sd$DT,sd$Global_active_power,type="l",xlab="",ylab="Global Active Power (kilowatts)")
 ## turn off the device to push the graph into the file.
 dev.off()
-print("plot 1 written to file")
+print("plot 2 written to file")
